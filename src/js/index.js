@@ -11,7 +11,7 @@ const login = event => {
 
     service
         .login(data.get('email'), data.get('password'))
-        .then(() => buttonLoading.removeLoading(submitButton), console.log('no'));
+        .then(() => buttonLoading.removeLoading(submitButton), console.log('error'));
 
     console.log(event);
 };

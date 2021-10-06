@@ -1,0 +1,21 @@
+@import "../../node_modules/normalize.css/";
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat/Montserrat-Regular.ttf);
+}
+
+$white: #FFFFFF;
+$primaryColor: #4AD395;
+$backgroundColor: #F0F2F5;
+$disabledColor: #E5E5E5A6;
+$secondaryColor: #777777;
+$focusColor: #4ECB71;
+
+* {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: $backgroundColor;
+}

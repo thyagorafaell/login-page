@@ -1,0 +1,25 @@
+@import "base";
+
+.app {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.app-container {
+    background-color: $white;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo-header {
+    margin-bottom: 62px;
+}
+
+button.loading {
+    border: 1px solid red;
+}

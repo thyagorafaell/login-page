@@ -1,0 +1,21 @@
+{
+  "name": "login-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "parcel-bundler": "^1.12.5",
+    "rimraf": "^3.0.2",
+    "sass": "^1.42.1"
+  },
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "server": "http-server ./dist -p=3000",
+    "dev": "yarn clean && parcel watch ./src/*.html",
+    "build": "yarn clean && parcel build ./src/*.html --no-source-maps --public-url ./"
+  },
+  "devDependencies": {
+    "http-server": "^13.0.2"
+  }
+}
